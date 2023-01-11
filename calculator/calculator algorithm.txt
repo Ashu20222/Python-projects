@@ -1,0 +1,4 @@
+Define a function calculator() that takes in three parameters: operation, num1, and num2.
+Within the function, use if-elif statements to perform the operation on num1 and num2 based on the value of the operation parameter.
+Return the result of the operation.
+Call the function and pass in the appropriate values for the operation, num1, and num2.
