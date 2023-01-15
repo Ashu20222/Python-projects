@@ -1,0 +1,11 @@
+Get the user's birthdate
+
+Get the current date
+
+Subtract the birth year from the current year
+
+Check if the current month and day is less than the birthdate's month and day.
+
+a. If true, then age = age
+
+Print the age
