@@ -1,25 +1,18 @@
-def calculator(operation, num1, num2):
+def calculator():
      
+    operation = input("Please select an operation (+, -, *, /): ")
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
     if operation == "+":
-        result = num1 + num2
+        print(num1 + num2)
     elif operation == "-":
-        result = num1 - num2
+        print(num1 - num2)
     elif operation == "*":
-        result = num1 * num2
+        print(num1 * num2)
     elif operation == "/":
-        result = num1 / num2
+        print(num1 / num2)
     else:
-        return "Invalid operator"
-    
-    return result
+        print("Invalid operator")
 
-# Get the operation from the user
-operation = input("What operation would you like to perform? (+, -, *, /): ")
-
-# Get the two numbers from the user
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-
- 
-result = calculator(operation, num1, num2)
-print(result)
+calculator()
