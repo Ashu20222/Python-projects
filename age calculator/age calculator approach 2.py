@@ -12,7 +12,7 @@ def age_calculator():
     # Calculate age
     age = today.year - birth_year
     if today.month < birth_month or (today.month == birth_month and today.day < birth_day):
-        age = age
+        age
 
     # Print age
     print("Your age is: ", age)
