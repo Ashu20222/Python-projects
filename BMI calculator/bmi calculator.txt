@@ -1,0 +1,8 @@
+Define the calculate_bmi() function that takes weight and height as input and calculates the BMI using the formula bmi = weight / (height^2)
+Define the bmi_status() function that takes the BMI as input and checks it against certain ranges to determine the user's status (underweight, normal, overweight, or obese) and returns the appropriate status.
+Take input of weight and height from the user using the input() function.
+Call the calculate_bmi() function with the entered weight and height as arguments and store the result in a variable
+Call the bmi_status() function with the BMI as an argument and store the result in a variable
+Print the BMI and the status
+Use an if-elif block to check the status and print the appropriate warning message.
+The program terminates.
