@@ -4,13 +4,13 @@ def calculate_bmi(weight, height):
 
 def bmi_status(bmi):
     if bmi < 18.5:
-        return "Underweight"
+        return " Underweight "
     elif 18.5 <= bmi < 25:
-        return "Normal"
+        return " Normal "
     elif 25 <= bmi < 30:
-        return "Overweight"
+        return " Overweight "
     else:
-        return "Obese"
+        return " Obese "
 
 weight = float(input("Enter your weight in kg: "))
 height = float(input("Enter your height in meters: "))
